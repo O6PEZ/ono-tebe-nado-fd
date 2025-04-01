@@ -19,6 +19,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Raleway";
   src: url("../fonts/Raleway-Regular.woff2") format("woff2");
@@ -55,11 +56,13 @@ header {
   padding-right: 50px;
   font-size: 18px;
 }
+
 .nav-header {
   margin-top: 94px;
   position: absolute;
   margin-left: 44px;
 }
+
 .nav-header ul li {
   display: inline-block;
   margin-top: 50px;
@@ -68,6 +71,7 @@ header {
   display: inline-block;
   line-height: 100px;
 }
+
 .nav-header ul li a {
   font-size: 17px;
   text-decoration: none;
@@ -91,6 +95,7 @@ nav ul li.underline:nth-child(3)::before {
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
 }
+
 .header-logo-iamge {
   position: absolute;
   margin-left: 428px;
@@ -98,6 +103,7 @@ nav ul li.underline:nth-child(3)::before {
   width: 148px;
   height: 105px;
 }
+
 .address {
   position: absolute;
   margin-right: 87px;
@@ -108,6 +114,7 @@ nav ul li.underline:nth-child(3)::before {
   max-width: 240px;
   justify-self: end;
 }
+
 .number,
 .e-mail {
   color: black;
@@ -116,6 +123,7 @@ nav ul li.underline:nth-child(3)::before {
   text-underline-offset: 4px;
   cursor: pointer;
 }
+
 .content {
   font-family: "Raleway", sans-serif;
 }
@@ -221,6 +229,7 @@ nav ul li.underline:nth-child(3)::before {
   margin-left: 24px;
   margin-right: 24px;
 }
+
 .card-lot-01 {
   width: 334px;
   height: 596px;
@@ -242,6 +251,7 @@ nav ul li.underline:nth-child(3)::before {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../images/card-lot-02.jpg);
 }
+
 .card-lot-03 {
   width: 334px;
   height: 596px;
@@ -360,6 +370,7 @@ nav ul li.underline:nth-child(3)::before {
   padding-top: 35px;
   position: relative;
 }
+
 .circle {
   position: absolute;
   margin-left: 47px;
