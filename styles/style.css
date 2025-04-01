@@ -237,8 +237,7 @@ nav ul li.underline:nth-child(3)::before {
   background-position: center;
   object-fit: cover;
   background-color: rgba(0, 0, 0, 0.5);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/card-lot-01.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/card-lot-01.jpg);
 }
 
 .card-lot-02 {
@@ -248,8 +247,7 @@ nav ul li.underline:nth-child(3)::before {
   background-position: center;
   object-fit: cover;
   background-color: rgba(0, 0, 0, 0.5);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/card-lot-02.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/card-lot-02.jpg);
 }
 
 .card-lot-03 {
@@ -259,8 +257,7 @@ nav ul li.underline:nth-child(3)::before {
   background-position: center;
   object-fit: cover;
   background-color: rgba(0, 0, 0, 0.5);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/card-lot-03.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/card-lot-03.jpg");
 }
 
 .title-card-lot-01 {
