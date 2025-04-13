@@ -28,13 +28,13 @@ header {
   line-height: 100px;
 }
 
-.nav-header ul li a {
+.nav-header a {
   font-size: 17px;
   text-decoration: none;
   color: black;
 }
 
-nav ul li.underline:not(:first-child)::before {
+li.underline:not(:first-child)::before {
   content: "";
   width: 6px;
   height: 6px;
@@ -51,7 +51,7 @@ nav ul li.underline:not(:first-child)::before {
   text-underline-offset: 4px;
 }
 
-.header-logo-iamge {
+.header-logo-image {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -67,7 +67,7 @@ nav ul li.underline:not(:first-child)::before {
   justify-self: end;
 }
 
-.telephone-e-mail {
+.address-link {
   color: black;
   text-decoration: underline;
   text-decoration-thickness: 1px;
@@ -80,13 +80,29 @@ nav ul li.underline:not(:first-child)::before {
 }
 
 .cover {
+  background-image: url('../images/cover.jpg'); 
   background-size: cover;
   background-position: center;
   min-height: 757px;
-  padding: 0 20px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-    url(../images/cover.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  color: white; 
 }
+
+.overlay {
+  position: relative;
+  z-index: 0; 
+}
+
+.overlay::before {
+  content: '';
+  position: absolute;
+  inset: 0; 
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: -1; 
+} 
 
 .cover_title {
   color: white;
@@ -111,7 +127,7 @@ nav ul li.underline:not(:first-child)::before {
   align-self: flex-start;
   padding-left: 32px;
   letter-spacing: 30px;
-  margin-top: 165px;
+  margin-top: 115px;
 }
 
 .text-center {
@@ -197,21 +213,15 @@ nav ul li.underline:not(:first-child)::before {
 }
 
 .movie-card {
-  background-color: rgba(0, 0, 0, 0.5);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/card-lot-01.jpg);
+background-image: url(../images/card-lot-01.jpg);
 }
 
 .book-card {
-  background-color: rgba(0, 0, 0, 0.5);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .painting-card {
-  background-color: rgba(0, 0, 0, 0.5);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .title-card-lot {
@@ -327,7 +337,7 @@ footer {
   width: 100%;
 }
 
-.contacts-01 {
+.contacts {
   margin-left: 50px;
   line-height: 24px;
   font-weight: 400;
@@ -336,7 +346,7 @@ footer {
   max-width: 240px;
 }
 
-.contacts-02 {
+.address--link {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
@@ -354,7 +364,7 @@ footer {
   margin: 0;
 }
 
-.navigation ul li {
+.navigation li {
   line-height: 11px;
   padding: 0 15px;
   display: flex;
@@ -363,7 +373,7 @@ footer {
   text-align: center;
 }
 
-.navigation ul li a {
+.navigation a {
   text-decoration: none;
   color: black;
   font-size: 18px;
@@ -372,7 +382,7 @@ footer {
   transition: color 0.3s;
 }
 
-.underline-02 {
+.underline-navigation {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
